@@ -244,10 +244,45 @@ I enjoy building complete intelligent software systems — from rigorous explora
 
 ---
 
-## 📊 GitHub Stats
+## 📊 GitHub Stats & Live Contributions
 
 <div align="center">
-  <img src="./assets/github-stats.svg" width="100%" alt="Nagendra Kushwaha GitHub Stats" />
+  <!-- Interactive Animated Cyberpunk Overview Dashboard -->
+  <a href="https://github.com/Nagendrakushwaha" target="_blank">
+    <img src="./assets/github-stats.svg" width="100%" alt="Nagendra Kushwaha GitHub Stats" />
+  </a>
+</div>
+
+<br />
+
+<!-- Real-time Live GitHub Contribution Cards -->
+<div align="center">
+  <table border="0" width="100%" style="border-collapse: collapse; border: none;">
+    <tr style="border: none;">
+      <td width="50%" align="center" style="border: none; padding: 6px;">
+        <a href="https://github.com/Nagendrakushwaha" target="_blank">
+          <img src="https://github-readme-stats.vercel.app/api?username=Nagendrakushwaha&show_icons=true&theme=tokyonight&hide_border=false&border_radius=12&bg_color=0A0F1F&border_color=7C5CFF&title_color=5EEAD4&text_color=E8ECF8&icon_color=22D3EE" width="100%" alt="Nagendra Kushwaha Live GitHub Stats" />
+        </a>
+      </td>
+      <td width="50%" align="center" style="border: none; padding: 6px;">
+        <a href="https://github.com/Nagendrakushwaha" target="_blank">
+          <img src="https://streak-stats.demolab.com/?user=Nagendrakushwaha&theme=tokyonight&hide_border=false&border_radius=12&background=0A0F1F&border=7C5CFF&stroke=22D3EE&ring=5EEAD4&fire=FF6B6B&currStreakNum=5EEAD4&sideNums=E8ECF8&currStreakLabel=22D3EE&dates=8B94B3" width="100%" alt="Nagendra Kushwaha Live GitHub Streak" />
+        </a>
+      </td>
+    </tr>
+    <tr style="border: none;">
+      <td colspan="2" align="center" style="border: none; padding: 6px;">
+        <a href="https://github.com/Nagendrakushwaha" target="_blank">
+          <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nagendrakushwaha&layout=compact&theme=tokyonight&hide_border=false&border_radius=12&bg_color=0A0F1F&border_color=7C5CFF&title_color=5EEAD4&text_color=E8ECF8" width="60%" alt="Nagendra Kushwaha Live Top Languages" />
+        </a>
+      </td>
+    </tr>
+  </table>
+  <p align="center">
+    <a href="https://github.com/Nagendrakushwaha?tab=overview" target="_blank">
+      <img src="https://img.shields.io/badge/LIVE_ACTIVITY-VIEW_REAL--TIME_GRAPH_ON_GITHUB-22C55E?style=for-the-badge&logo=github&logoColor=white" alt="View Live Contribution Graph on GitHub" />
+    </a>
+  </p>
 </div>
 
 ---
