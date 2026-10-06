@@ -1,9 +1,8 @@
 from PIL import Image
 
-sp = Image.open('f:/NagendraKushwaha/scratch_ref/shahid_portrait.jpg')
+sp = Image.open('f:/NagendraKushwaha/scratch_ref/nagendra_header_canvas.jpg')
 w, h = sp.size
 print("Width:", w, "Height:", h)
-# Sample along left edge
 left_pixels = [sp.getpixel((0, y)) for y in range(0, h, 200)]
 print("Left edge pixels:", left_pixels)
 right_pixels = [sp.getpixel((w-1, y)) for y in range(0, h, 200)]

@@ -1,6 +1,6 @@
 from PIL import Image
 
-sp = Image.open('f:/NagendraKushwaha/scratch_ref/shahid_portrait.jpg')
+sp = Image.open('f:/NagendraKushwaha/scratch_ref/nagendra_header_canvas.jpg')
 print("Top-left pixel:", sp.getpixel((0, 0)))
 print("Top-right pixel:", sp.getpixel((1579, 0)))
 print("Bottom-left pixel:", sp.getpixel((0, 1399)))
