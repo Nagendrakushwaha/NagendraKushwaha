@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 200" width="100%" height="100%">
+  <defs>
+    <linearGradient id="pipeBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050813" />
+      <stop offset="100%" stop-color="#090f24" />
+    </linearGradient>
+
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0d182e" />
+      <stop offset="100%" stop-color="#080e1c" />
+    </linearGradient>
+
+    <linearGradient id="accentCyan" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f2fe" />
+      <stop offset="100%" stop-color="#38bdf8" />
+    </linearGradient>
+
+    <linearGradient id="accentViolet" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+
+    <linearGradient id="arrowGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f2fe" />
+      <stop offset="100%" stop-color="#818cf8" />
+    </linearGradient>
+
+    <filter id="pipeGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <style>
+    .step-num { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 10px; font-weight: 800; letter-spacing: 1px; fill: #38bdf8; }
+    .step-title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 12.5px; font-weight: 700; fill: #ffffff; letter-spacing: 0.5px; }
+    .step-desc { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 10px; font-weight: 400; fill: #94a3b8; }
+    .header-tag { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 11px; font-weight: 700; letter-spacing: 2px; fill: #38bdf8; }
+  </style>
+
+  <!-- Container -->
+  <rect width="1200" height="200" rx="14" fill="url(#pipeBg)" stroke="#1e293b" stroke-width="1.2" />
+
+  <!-- Top Banner Title -->
+  <g transform="translate(35, 26)">
+    <circle cx="6" cy="6" r="3" fill="#00f2fe" filter="url(#pipeGlow)" />
+    <text x="18" y="10" class="header-tag">END-TO-END AI / ML ENGINEERING LIFECYCLE &amp; DEPLOYMENT ARCHITECTURE</text>
+  </g>
+
+  <!-- Connecting Stream Line Across All Cards -->
+  <path d="M 90 115 L 1110 115" stroke="#1e293b" stroke-width="2" />
+  <path d="M 90 115 L 1110 115" stroke="url(#arrowGrad)" stroke-width="2" stroke-dasharray="8 6" opacity="0.6" />
+
+  <!-- Pipeline Steps: 6 Main Comprehensive Stages -->
+
+  <!-- STAGE 1: INGEST & AUDIT -->
+  <g transform="translate(35, 52)">
+    <rect width="168" height="122" rx="10" fill="url(#cardGrad)" stroke="#1e3a5f" stroke-width="1.2" />
+    <circle cx="20" cy="22" r="8" fill="#0c2340" />
+    <text x="16" y="25" class="step-num">01</text>
+    <text x="36" y="25" class="step-title">DATA INGESTION</text>
+    <line x1="12" y1="38" x2="156" y2="38" stroke="#1e293b" stroke-width="1" />
+    <text x="14" y="56" class="step-desc">• Raw Data Collection</text>
+    <text x="14" y="73" class="step-desc">• Benchmarks (SROIE, CIC)</text>
+    <text x="14" y="90" class="step-desc">• Integrity &amp; Missing Checks</text>
+    <text x="14" y="107" class="step-desc">• Schema Structuring</text>
+  </g>
+
+  <!-- STAGE 2: EDA & PREPARATION -->
+  <g transform="translate(225, 52)">
+    <rect width="168" height="122" rx="10" fill="url(#cardGrad)" stroke="#1e3a5f" stroke-width="1.2" />
+    <circle cx="20" cy="22" r="8" fill="#0c2340" />
+    <text x="16" y="25" class="step-num">02</text>
+    <text x="36" y="25" class="step-title">CLEANING &amp; EDA</text>
+    <line x1="12" y1="38" x2="156" y2="38" stroke="#1e293b" stroke-width="1" />
+    <text x="14" y="56" class="step-desc">• Outlier &amp; Noise Filtering</text>
+    <text x="14" y="73" class="step-desc">• Distribution Analysis</text>
+    <text x="14" y="90" class="step-desc">• Correlation &amp; Collinearity</text>
+    <text x="14" y="107" class="step-desc">• Text/Signal Normalization</text>
+  </g>
+
+  <!-- STAGE 3: FEATURE ENGINEERING -->
+  <g transform="translate(415, 52)">
+    <rect width="168" height="122" rx="10" fill="url(#cardGrad)" stroke="#1e3a5f" stroke-width="1.2" />
+    <circle cx="20" cy="22" r="8" fill="#0c2340" />
+    <text x="16" y="25" class="step-num">03</text>
+    <text x="36" y="25" class="step-title">FEATURE ENG.</text>
+    <line x1="12" y1="38" x2="156" y2="38" stroke="#1e293b" stroke-width="1" />
+    <text x="14" y="56" class="step-desc">• Vector Embeddings (RAG)</text>
+    <text x="14" y="73" class="step-desc">• TF-IDF &amp; Token Bounding</text>
+    <text x="14" y="90" class="step-desc">• MFCC Audio Processing</text>
+    <text x="14" y="107" class="step-desc">• Dimension Reduction</text>
+  </g>
+
+  <!-- STAGE 4: MODELING & TRAINING -->
+  <g transform="translate(605, 52)">
+    <rect width="176" height="122" rx="10" fill="url(#cardGrad)" stroke="#3b2d6a" stroke-width="1.2" />
+    <circle cx="20" cy="22" r="8" fill="#241b44" />
+    <text x="16" y="25" class="step-num" fill="#c084fc">04</text>
+    <text x="36" y="25" class="step-title">MODEL TRAINING</text>
+    <line x1="12" y1="38" x2="164" y2="38" stroke="#2a1f4d" stroke-width="1" />
+    <text x="14" y="56" class="step-desc">• Deep Neural Nets / CNN</text>
+    <text x="14" y="73" class="step-desc">• CatBoost &amp; Ensembles</text>
+    <text x="14" y="90" class="step-desc">• MobileNetV3 Edge Tuning</text>
+    <text x="14" y="107" class="step-desc">• Hyperparameter Search</text>
+  </g>
+
+  <!-- STAGE 5: RIGOROUS EVALUATION -->
+  <g transform="translate(803, 52)">
+    <rect width="176" height="122" rx="10" fill="url(#cardGrad)" stroke="#3b2d6a" stroke-width="1.2" />
+    <circle cx="20" cy="22" r="8" fill="#241b44" />
+    <text x="16" y="25" class="step-num" fill="#c084fc">05</text>
+    <text x="36" y="25" class="step-title">EVAL &amp; EXPLAIN</text>
+    <line x1="12" y1="38" x2="164" y2="38" stroke="#2a1f4d" stroke-width="1" />
+    <text x="14" y="56" class="step-desc">• Macro F1 &amp; Test Accuracy</text>
+    <text x="14" y="73" class="step-desc">• Grad-CAM Visual Heatmaps</text>
+    <text x="14" y="90" class="step-desc">• Loss/Acc Curve Analysis</text>
+    <text x="14" y="107" class="step-desc">• Prompt Safety Sanitization</text>
+  </g>
+
+  <!-- STAGE 6: API & DEPLOYMENT -->
+  <g transform="translate(1001, 52)">
+    <rect width="164" height="122" rx="10" fill="url(#cardGrad)" stroke="#047857" stroke-width="1.2" />
+    <circle cx="20" cy="22" r="8" fill="#064e3b" />
+    <text x="16" y="25" class="step-num" fill="#34d399">06</text>
+    <text x="36" y="25" class="step-title">API &amp; DEPLOY</text>
+    <line x1="12" y1="38" x2="152" y2="38" stroke="#065f46" stroke-width="1" />
+    <text x="14" y="56" class="step-desc">• Async FastAPI Engine</text>
+    <text x="14" y="73" class="step-desc">• React User Interface</text>
+    <text x="14" y="90" class="step-desc">• Render &amp; Vercel CI/CD</text>
+    <text x="14" y="107" class="step-desc">• Edge CPU Optimization</text>
+  </g>
+</svg>
