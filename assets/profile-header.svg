@@ -238,7 +238,7 @@
 <rect x="72" y="510" width="64" height="64" rx="16" fill="#2DD4BF" fill-opacity=".1" stroke="#2DD4BF" stroke-opacity=".5" stroke-width="1.6"/>
 <rect x="72" y="510" width="64" height="64" rx="16" fill="none" stroke="#2DD4BF" stroke-width="2.4" opacity="0"><animate attributeName="opacity" values="0;.9;0" dur="3.2s" repeatCount="indefinite"/></rect>
 <text class="sans" x="104" y="556" font-size="38" font-weight="800" fill="#2DD4BF" text-anchor="middle">K</text>
-<text class="sans" x="158" y="558" font-size="52" font-weight="800" letter-spacing="-1" fill="#E8EEF9">30+</text>
+<text class="sans" x="158" y="558" font-size="52" font-weight="800" letter-spacing="-1" fill="#E8EEF9">22+</text>
 <text class="sans" x="158" y="596" font-size="22" fill="#8A97B5">Projects on GitHub</text></g>
 <g class="in" style="animation-delay:1.15s">
 <rect x="408" y="510" width="64" height="64" rx="16" fill="#B48CFF" fill-opacity=".1" stroke="#B48CFF" stroke-opacity=".5" stroke-width="1.6"/>
