@@ -1,6 +1,6 @@
 <!-- HEADER BANNER -->
 <div align="center">
-  <img src="./assets/header.svg" width="100%" alt="Nagendra Kushwaha — Data Scientist & AI/ML Engineer" />
+  <img src="./assets/header.svg" width="100%" alt="Nagendra Kushwaha — Data Science & AI Engineer" />
 </div>
 
 <div align="center">
@@ -13,7 +13,7 @@
 
 ## Nagendra Kushwaha
 
-**Data Scientist & AI/ML Engineer**  
+**Data Science & AI Engineer**  
 **B.Tech Computer Science & Engineering (2023–2027, CGPA: 7.85/10)**  
 **Sam Global University, Bhopal, India**
 
