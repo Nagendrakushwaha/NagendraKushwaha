@@ -29,7 +29,6 @@ I enjoy building complete intelligent software systems — from rigorous explora
 - 🏆 **Achievements:** Designed and benchmarked 30+ machine learning, computer vision, NLP, and data visualization pipelines
 - 🎯 **Focus Areas:** Machine Learning, Deep Learning, Generative AI & RAG, Computer Vision, Big Data & Predictive Analytics
 - 📬 **Contact:** <a href="mailto:shibbuk707@gmail.com">shibbuk707@gmail.com</a>
-- <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" width="18" height="18" valign="middle" /> **WhatsApp:** <a href="https://wa.me/919340058721" target="_blank">Chat on WhatsApp</a>
 
 <!-- SOCIAL / PROFILE BADGES -->
 <p align="center">
@@ -44,13 +43,9 @@ I enjoy building complete intelligent software systems — from rigorous explora
   <a href="https://github.com/Nagendrakushwaha" target="_blank">
     <img src="https://img.shields.io/badge/GITHUB-FOLLOW-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   </a>
-  &nbsp;
+  <br />
   <a href="https://my-portfolio-omega-tawny-37.vercel.app" target="_blank">
     <img src="https://img.shields.io/badge/PORTFOLIO-VISIT-00F2FE?style=for-the-badge&logo=vercel&logoColor=black" alt="Portfolio" />
-  </a>
-  <br />
-  <a href="https://wa.me/919340058721" target="_blank">
-    <img src="https://img.shields.io/badge/WHATSAPP-CHAT-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp" />
   </a>
   &nbsp;
   <a href="https://www.kaggle.com" target="_blank">
